@@ -1,0 +1,33 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.0.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java'
+}
+
+group = 'com.spring-example'
+version = 'latest'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+// uncomment to run your image with java 14
+//bootBuildImage {
+//    environment = ["BP_JVM_VERSION" : "14.0.1"]
+//}
+
+wrapper {
+    gradleVersion = "6.4.1"
+}
