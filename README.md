@@ -33,3 +33,4 @@ Installed on your machine:
 - Spring Boot [gradle docs](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/html/#build-image)
 - Works also with [maven and the `build-image` goal](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/#build-image)
 - [What's new in Spring Boot 2.3.0](https://spring.io/blog/2020/05/15/spring-boot-2-3-0-available-now)
+- [Spring Boot and buildpacks](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1)
