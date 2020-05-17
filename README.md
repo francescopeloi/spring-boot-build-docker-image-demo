@@ -14,7 +14,7 @@ Installed on your machine:
 - run `docker images` and see the list of images you have locally
 - run `./gradlew bootBuildImage` from this repo directory to generate an [OCI image](https://www.opencontainers.org/) for this application
 - run `docker images` and see the new images created
-- you should see also docker-demo in the list now!
+- you should see also `spring-boot-build-docker-image-demo` in the list now!
 - run it with `docker run spring-boot-build-docker-image-demo`
 - you can see from the output that it's running with java 11
 - uncomment the `bootBuildImage` section in `build.gradle`
