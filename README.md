@@ -15,14 +15,14 @@ Installed on your machine:
 - run `./gradlew bootBuildImage` from this repo directory to generate an [OCI image](https://www.opencontainers.org/) for this application
 - run `docker images` and see the new images created
 - you should see also docker-demo in the list now!
-- run it with `docker run docker-demo`
+- run it with `docker run spring-boot-build-docker-image-demo`
 - you can see from the output that it's running with java 11
 - uncomment the `bootBuildImage` section in `build.gradle`
 - run `./gradlew bootBuildImage` again to update the image
 - see how _only_ the `jre` layer is updated
 - not even the app layer is updated (even though there's a change in `build.gradle`!)
 - the app layer is not updated even if you add a new line anywhere on the source code!
-- run your new image always with `docker run docker-demo`
+- run your new image always with `docker run spring-boot-build-docker-image-demo`
 - your app is now
   - running with openjdk 14
   - with just one line change on your gradle build file
